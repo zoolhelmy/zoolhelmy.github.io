@@ -1497,7 +1497,7 @@ hr {
 .clearfix:after {
     clear: both;
 }
-.link--weather {
+.link--nohyper {
     color: #2d2b31;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-out;
