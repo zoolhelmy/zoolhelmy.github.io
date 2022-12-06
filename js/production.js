@@ -105,7 +105,13 @@ function setImageZool() {
 	var images = [
 		{src: 'img/zool-1.jpg', href: '#link1'},
 		{src: 'img/zool-2.jpg', href: '#link2'},
-		{src: 'img/zool-3.jpg', href: '#link3'}
+		{src: 'img/zool-3.jpg', href: '#link3'},
+		{src: 'img/zool-4.jpg', href: '#link4'},
+		{src: 'img/zool-5.jpg', href: '#link5'},
+		{src: 'img/zool-6.jpg', href: '#link6'},
+		{src: 'img/zool-7.jpg', href: '#link7'},
+		{src: 'img/zool-8.jpg', href: '#link8'},
+		{src: 'img/zool-9.jpg', href: '#link9'}
 	];
 	var random_image1 = images[Math.floor(Math.random() * images.length)];
 	$('#imageZool').attr('src',random_image1.src);
