@@ -19,6 +19,7 @@ $(document).ready(function () {
 	
 	setImageZool();
 	setImageVandy();
+	setImageBASF();
 	setImageBAE();
 	setImageAmdocs();
 	setImageDigi();
@@ -71,6 +72,20 @@ function setImageVandy() {
 	
 }
 
+function setImageBASF() {
+	
+	var images = [
+		{src: 'img/basf-1.jpg', href: '#link1'},
+		{src: 'img/basf-2.jpg', href: '#link2'},
+		{src: 'img/basf-3.jpg', href: '#link3'},
+		{src: 'img/basf-4.jpg', href: '#link4'},
+		{src: 'img/basf-5.jpg', href: '#link5'}
+	];
+
+	$('#imageBASF').attr('src', images[Math.floor(Math.random() * images.length)].src);
+	
+}
+
 function setImageBAE() {
 	
 	var images = [
@@ -90,7 +105,9 @@ function setImageAmdocs() {
 	
 	var images = [
 		{src: 'img/amdocs-1.jpg', href: '#link1'},
-		{src: 'img/amdocs-2.jpg', href: '#link2'}
+		{src: 'img/amdocs-2.jpg', href: '#link2'},
+		{src: 'img/amdocs-3.jpg', href: '#link3'},
+		{src: 'img/amdocs-4.jpg', href: '#link4'}
 	];
 
 	$('#imageAmdocs').attr('src', images[Math.floor(Math.random() * images.length)].src);

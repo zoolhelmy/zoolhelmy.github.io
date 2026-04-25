@@ -969,6 +969,16 @@ video {
         -ms-flex-order: 16;
         order: 16;
     }
+    .order-17 {
+        -webkit-box-ordinal-group: 18;
+        -ms-flex-order: 17;
+        order: 17;
+    }
+    .order-18 {
+        -webkit-box-ordinal-group: 19;
+        -ms-flex-order: 18;
+        order: 18;
+    }
 }
 .pattern--left-down {
     height: 420px;
